@@ -1,0 +1,274 @@
+
+
+/* font */
+
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* header-section */
+
+.header-section{
+    background-image: url("../Assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 150px;
+}
+
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo img{
+   width: 100px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 40px;
+    
+}
+.menu ul li{
+    list-style: none;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.menu ul li:hover{
+    background-color: transparent;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+.menu ul li a:hover{
+    color: black;
+}
+.primary-btn{
+    background-color: blue;
+    border: none;
+    padding: 12px 36px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+.primary-btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.banner-content{
+    text-align: center;
+}
+.banner-title{
+    margin-top: 158px;
+    margin-bottom: 36px;
+    color: #252432;
+}
+
+/* action-section */
+
+.padding-large{
+    padding: 116px;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.action-content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.action-content-left h4{
+    font-weight: 700;
+    font-size: 32px;
+    color: #252432;
+}
+.action-content-left p{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 24px;
+    color: #252432;
+}
+
+.action-content-right{}
+.action-content-right img{
+    border-radius: 48px;
+}
+
+
+/* productive-section */
+
+.productive-wrapper{
+    background-color: #cfcef5;
+    text-align: center;
+    padding: 50px 140px;
+    border-radius: 24px;
+}
+.productive-content h4{
+    color: #252432;
+    font-weight: 700;
+    font-size: 38px;
+}
+.counter-wrap{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.fun-fact h4{
+    color: #4E47FF;
+    font-size: 80px;
+    margin: 0;    
+}
+.fun-fact p{
+    color: #000000;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* testimonial-section */
+
+.testimonial-content-wrapper{
+
+}
+.testimonial-content h4{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 50px;
+}
+.testimonial-box-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.box-content-wrap{
+    margin-left: 20px;
+    padding: 24px;
+    background-color: #fafcff;
+    box-shadow: 10px 10px #252432;
+    border: 2px solid #F2EDED;
+    border-radius: 14px;
+}
+.box-1{
+    margin-left: 20px;
+}
+.box-1 img{
+    width: 116px;
+}
+.box-1 h5{
+    font-size: 24px;
+    font-weight: 200px;
+    color: #252432;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.box-1 p{
+    margin-bottom: 24px;
+}
+.reviewer-wrap{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.reviewer-wrap img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.reviewer-intro h6{
+    font-size: 16px;
+    color: #252432;
+    margin: 2px;
+}
+.reviewer-intro p{
+    font-size: 16px;
+    color: #B3B3B3;
+    margin: 0;
+}
+
+/* focus-section */
+
+.focus-content-wrapper{
+    background-color: #B3B3B3;
+    padding: 70px 150px;
+    border-radius: 14px;
+}
+.focus-content-wrapper img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.focus-content{
+    text-align: center;
+}
+.focus-content h3{
+    font-size: 48px;
+    font-weight: 700px;
+    color: #252432;
+    margin: 0;
+}
+
+
+/* contect-section */
+
+.contact-wrapper{
+    display: flex;
+    gap: 115px;
+
+}
+.contact-contant-left h3{
+    font-size: 90px;
+}
+.contact-contant-right form input[type="text"]{
+    height: 70px;
+    width: 100%;
+    padding-left: 32px;
+    margin: 10px;
+    border: 2px solid #D6DDED;
+    border-radius: 10px;
+    
+}
+.contact-contant-right form textarea{
+    height: 70px;
+    width: 100%;
+    padding-left: 32px;
+    padding-top: 20px;
+    margin: 10px;
+    border: 2px solid #D6DDED;
+    border-radius: 10px;
+}
+
+/* footer-section */
+
+
+.footer-content{
+    text-align: center;
+}
+.footer-content img{
+    width: 100px;
+}
+.footer-content p{
+    color: #000000;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-content ul li{
+    list-style: none;
+    margin-left: 24px;
+}
+.footer-content ul li a{
+    text-decoration: none;
+}
+
