@@ -15,7 +15,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 150px;
+    /* margin: 0 150px; */
+    padding: 0 150px;
+    padding-bottom: 100px;
+    margin: 0 0 0 0;
 }
 
 .navber{
@@ -41,6 +44,7 @@
 }
 .menu ul li:hover{
     background-color: transparent;
+    color: black;
 }
 .menu ul li a{
     text-decoration: none;
@@ -68,6 +72,7 @@
     text-align: center;
 }
 .banner-title{
+    font-size: 65px;
     margin-top: 158px;
     margin-bottom: 36px;
     color: #252432;
