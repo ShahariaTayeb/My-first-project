@@ -66,6 +66,7 @@
 .primary-btn:hover{
     background-color: yellow;
     color: black;
+    cursor: pointer;
 }
 
 .banner-content{
